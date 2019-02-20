@@ -1,4 +1,5 @@
 function hello(name) {
+    debugger;
     return "hello " + name;
 }
 var fullName = "janko hrasko";
