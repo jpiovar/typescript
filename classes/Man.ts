@@ -4,7 +4,7 @@ class Man {
     public constructor(fullName: string) {
         this.name = fullName;
     }
-
+ 
     public town(townName: string) {
         console.log(`${this.name} is from ${townName}`);
     }
