@@ -33,7 +33,9 @@ var Superman = /** @class */ (function (_super) {
     return Superman;
 }(Man));
 var smallMan = new Man('janko hrasko');
+smallMan.name;
 smallMan.town('hraskovo');
 var superman = new Superman('ferdo mravec');
+superman.name;
 superman.speed;
 superman.howFast();

@@ -13,8 +13,8 @@ class Superman extends Man {
         console.log(`${this.name} has speed ${this.speed}`);
     }
 }
-var smallMan = new Man('janko hrasko');
+const smallMan = new Man('janko hrasko');
 smallMan.town('hraskovo');
-var superman = new Superman('ferdo mravec');
+const superman = new Superman('ferdo mravec');
 superman.speed;
 superman.howFast();
